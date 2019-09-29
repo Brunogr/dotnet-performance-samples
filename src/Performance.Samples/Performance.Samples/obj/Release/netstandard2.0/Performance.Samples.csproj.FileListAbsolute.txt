@@ -1,0 +1,10 @@
+C:\Users\Bruno\source\repos\Performance.Samples\Performance.Samples\obj\Release\netstandard2.0\Performance.Samples.csproj.CoreCompileInputs.cache
+C:\Users\Bruno\source\repos\Performance.Samples\Performance.Samples\obj\Release\netstandard2.0\Performance.Samples.AssemblyInfoInputs.cache
+C:\Users\Bruno\source\repos\Performance.Samples\Performance.Samples\obj\Release\netstandard2.0\Performance.Samples.AssemblyInfo.cs
+C:\Users\Bruno\source\repos\Performance.Samples\Performance.Samples\bin\Release\netstandard2.0\RevDeBug.setup
+C:\Users\Bruno\source\repos\Performance.Samples\Performance.Samples\bin\Release\netstandard2.0\Performance.Samples.deps.json
+C:\Users\Bruno\source\repos\Performance.Samples\Performance.Samples\bin\Release\netstandard2.0\Performance.Samples.dll
+C:\Users\Bruno\source\repos\Performance.Samples\Performance.Samples\bin\Release\netstandard2.0\Performance.Samples.pdb
+C:\Users\Bruno\source\repos\Performance.Samples\Performance.Samples\obj\Release\netstandard2.0\Performance.Samples.dll
+C:\Users\Bruno\source\repos\Performance.Samples\Performance.Samples\obj\Release\netstandard2.0\Performance.Samples.pdb
+C:\Users\Bruno\source\repos\Performance.Samples\Performance.Samples\obj\Release\netstandard2.0\RdbLog.txt

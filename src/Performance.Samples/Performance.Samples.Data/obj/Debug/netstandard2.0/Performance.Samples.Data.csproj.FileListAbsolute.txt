@@ -1,0 +1,11 @@
+C:\Users\Bruno\source\repos\Performance.Samples\Performance.Samples.Data\bin\Debug\netstandard2.0\Performance.Samples.Data.deps.json
+C:\Users\Bruno\source\repos\Performance.Samples\Performance.Samples.Data\bin\Debug\netstandard2.0\Performance.Samples.Data.dll
+C:\Users\Bruno\source\repos\Performance.Samples\Performance.Samples.Data\obj\Debug\netstandard2.0\Performance.Samples.Data.csprojAssemblyReference.cache
+C:\Users\Bruno\source\repos\Performance.Samples\Performance.Samples.Data\obj\Debug\netstandard2.0\Performance.Samples.Data.csproj.CoreCompileInputs.cache
+C:\Users\Bruno\source\repos\Performance.Samples\Performance.Samples.Data\obj\Debug\netstandard2.0\Performance.Samples.Data.AssemblyInfoInputs.cache
+C:\Users\Bruno\source\repos\Performance.Samples\Performance.Samples.Data\obj\Debug\netstandard2.0\Performance.Samples.Data.AssemblyInfo.cs
+C:\Users\Bruno\source\repos\Performance.Samples\Performance.Samples.Data\bin\Debug\netstandard2.0\Performance.Samples.Data.pdb
+C:\Users\Bruno\source\repos\Performance.Samples\Performance.Samples.Data\obj\Debug\netstandard2.0\Performance.Samples.Data.dll
+C:\Users\Bruno\source\repos\Performance.Samples\Performance.Samples.Data\obj\Debug\netstandard2.0\Performance.Samples.Data.pdb
+C:\Users\Bruno\source\repos\Performance.Samples\Performance.Samples.Data\bin\Debug\netstandard2.0\RevDeBug.setup
+C:\Users\Bruno\source\repos\Performance.Samples\Performance.Samples.Data\obj\Debug\netstandard2.0\RdbLog.txt
