@@ -1,8 +1,0 @@
-Repository.Port=42742;
-Repository.Address=127.0.0.1;
-Application.Name=Performance.Samples.Console;
-SolutionName=Performance.Samples;
-StateStorageClassName=LiveRecorder;
-AuthorizationToken=;
-Release=;
-BacklogSize=1000;

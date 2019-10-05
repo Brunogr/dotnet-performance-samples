@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8' />
+<title>PerfomanceTests.Boxing-20190917-113651</title>
+
+<style type="text/css">
+	table { border-collapse: collapse; display: block; width: 100%; overflow: auto; }
+	td, th { padding: 6px 13px; border: 1px solid #ddd; }
+	tr { background-color: #fff; border-top: 1px solid #ccc; }
+	tr:nth-child(even) { background: #f8f8f8; }
+</style>
+</head>
+<body>
+<pre><code>
+BenchmarkDotNet=v0.11.5, OS=Windows 10.0.17134.1006 (1803/April2018Update/Redstone4)
+Intel Core i7-7700HQ CPU 2.80GHz (Kaby Lake), 1 CPU, 8 logical and 4 physical cores
+.NET Core SDK=3.0.100-preview3-010431
+  [Host]     : .NET Core 2.1.13 (CoreCLR 4.6.28008.01, CoreFX 4.6.28008.01), 64bit RyuJIT
+  DefaultJob : .NET Core 2.1.13 (CoreCLR 4.6.28008.01, CoreFX 4.6.28008.01), 64bit RyuJIT
+</code></pre>
+<pre><code></code></pre>
+
+<table>
+<thead><tr><th>                    Method</th><th>Mean</th><th>Error</th><th>StdDev</th><th>Gen 0</th><th>Gen 1</th><th>Gen 2</th><th>Allocated</th>
+</tr>
+</thead><tbody><tr><td>StringConcatWithBoxing</td><td>215.6 ns</td><td>2.476 ns</td><td>2.195 ns</td><td>0.1676</td><td>-</td><td>-</td><td>528 B</td>
+</tr><tr><td>StringConcatWithoutBoxing</td><td>162.7 ns</td><td>1.200 ns</td><td>1.122 ns</td><td>0.1092</td><td>-</td><td>-</td><td>344 B</td>
+</tr><tr><td>StringInterpolationWithoutBoxing</td><td>172.7 ns</td><td>2.157 ns</td><td>1.912 ns</td><td>0.1142</td><td>-</td><td>-</td><td>360 B</td>
+</tr><tr><td>StringInterpolationWithBoxing</td><td>473.0 ns</td><td>8.983 ns</td><td>8.403 ns</td><td>0.0982</td><td>-</td><td>-</td><td>312 B</td>
+</tr><tr><td>StrinPlusWithoutBoxing</td><td>160.1 ns</td><td>2.206 ns</td><td>2.063 ns</td><td>0.1092</td><td>-</td><td>-</td><td>344 B</td>
+</tr><tr><td>StringPlusWithBoxing</td><td>210.8 ns</td><td>1.635 ns</td><td>1.529 ns</td><td>0.1600</td><td>-</td><td>-</td><td>504 B</td>
+</tr></tbody></table>
+</body>
+</html>

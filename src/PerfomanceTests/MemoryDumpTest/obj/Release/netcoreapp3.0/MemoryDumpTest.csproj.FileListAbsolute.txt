@@ -1,0 +1,13 @@
+E:\git\1\.NetConf-Tests\PerfomanceTests\MemoryDumpTest\bin\Release\netcoreapp3.0\MemoryDumpTest.exe
+E:\git\1\.NetConf-Tests\PerfomanceTests\MemoryDumpTest\obj\Release\netcoreapp3.0\MemoryDumpTest.csprojAssemblyReference.cache
+E:\git\1\.NetConf-Tests\PerfomanceTests\MemoryDumpTest\obj\Release\netcoreapp3.0\MemoryDumpTest.AssemblyInfoInputs.cache
+E:\git\1\.NetConf-Tests\PerfomanceTests\MemoryDumpTest\obj\Release\netcoreapp3.0\MemoryDumpTest.AssemblyInfo.cs
+E:\git\1\.NetConf-Tests\PerfomanceTests\MemoryDumpTest\bin\Release\netcoreapp3.0\MemoryDumpTest.deps.json
+E:\git\1\.NetConf-Tests\PerfomanceTests\MemoryDumpTest\bin\Release\netcoreapp3.0\MemoryDumpTest.runtimeconfig.json
+E:\git\1\.NetConf-Tests\PerfomanceTests\MemoryDumpTest\bin\Release\netcoreapp3.0\MemoryDumpTest.runtimeconfig.dev.json
+E:\git\1\.NetConf-Tests\PerfomanceTests\MemoryDumpTest\bin\Release\netcoreapp3.0\MemoryDumpTest.dll
+E:\git\1\.NetConf-Tests\PerfomanceTests\MemoryDumpTest\bin\Release\netcoreapp3.0\MemoryDumpTest.pdb
+E:\git\1\.NetConf-Tests\PerfomanceTests\MemoryDumpTest\bin\Release\netcoreapp3.0\Bogus.dll
+E:\git\1\.NetConf-Tests\PerfomanceTests\MemoryDumpTest\obj\Release\netcoreapp3.0\MemoryDumpTest.csproj.CopyComplete
+E:\git\1\.NetConf-Tests\PerfomanceTests\MemoryDumpTest\obj\Release\netcoreapp3.0\MemoryDumpTest.dll
+E:\git\1\.NetConf-Tests\PerfomanceTests\MemoryDumpTest\obj\Release\netcoreapp3.0\MemoryDumpTest.pdb

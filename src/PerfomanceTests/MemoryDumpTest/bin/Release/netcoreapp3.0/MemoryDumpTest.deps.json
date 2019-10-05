@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "MemoryDumpTest/1.0.0": {
+        "dependencies": {
+          "Bogus": "28.3.1"
+        },
+        "runtime": {
+          "MemoryDumpTest.dll": {}
+        }
+      },
+      "Bogus/28.3.1": {
+        "runtime": {
+          "lib/netstandard2.0/Bogus.dll": {
+            "assemblyVersion": "28.3.1.0",
+            "fileVersion": "28.3.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MemoryDumpTest/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Bogus/28.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OHWyzNtukMUNKlsl+zQxZ+AfDKq7cAevN0WGeIHjod1fXeuz6cRuglXOVdxZwir+Ryb4UFrEcfKxNvDmIOk2bQ==",
+      "path": "bogus/28.3.1",
+      "hashPath": "bogus.28.3.1.nupkg.sha512"
+    }
+  }
+}
