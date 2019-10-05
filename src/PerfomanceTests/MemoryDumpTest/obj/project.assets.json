@@ -47,11 +47,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\git\\1\\.NetConf-Tests\\PerfomanceTests\\MemoryDumpTest\\MemoryDumpTest.csproj",
+      "projectUniqueName": "E:\\git\\dotnet-performance-samples\\src\\PerfomanceTests\\MemoryDumpTest\\MemoryDumpTest.csproj",
       "projectName": "MemoryDumpTest",
-      "projectPath": "E:\\git\\1\\.NetConf-Tests\\PerfomanceTests\\MemoryDumpTest\\MemoryDumpTest.csproj",
+      "projectPath": "E:\\git\\dotnet-performance-samples\\src\\PerfomanceTests\\MemoryDumpTest\\MemoryDumpTest.csproj",
       "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
-      "outputPath": "E:\\git\\1\\.NetConf-Tests\\PerfomanceTests\\MemoryDumpTest\\obj\\",
+      "outputPath": "E:\\git\\dotnet-performance-samples\\src\\PerfomanceTests\\MemoryDumpTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

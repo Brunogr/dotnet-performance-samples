@@ -30,6 +30,11 @@ namespace PerfomanceTests.Samples
                     continue;
                 }
         }
+        /*
+            |                Method |         Mean |      Error |     StdDev |    Ratio | RatioSD |      Gen 0 | Gen 1 | Gen 2 |  Allocated |
+            |---------------------- |-------------:|-----------:|-----------:|---------:|--------:|-----------:|------:|------:|-----------:|
+            | Codigo_Com_Exceptions | 2,506.080 ms | 18.9906 ms | 15.8580 ms | 1,347.35 |   11.10 | 21000.0000 |     - |     - | 33600000 B |
+        */
 
         private void ProcessarPagamentoEx(string nome, decimal valor)
         {
@@ -66,6 +71,12 @@ namespace PerfomanceTests.Samples
             }
         }
 
+        /*
+            |                Method |         Mean |      Error |     StdDev |    Ratio | RatioSD |      Gen 0 | Gen 1 | Gen 2 |  Allocated |
+            |---------------------- |-------------:|-----------:|-----------:|---------:|--------:|-----------:|------:|------:|-----------:|
+            | Codigo_Sem_Exceptions |     1.860 ms |  0.0086 ms |  0.0076 ms |     1.00 |    0.00 |          - |     - |     - |          - |
+        */
+
         public ErrorModel ProcessarPagamentoModel(string nome, decimal valor)
         {
             if (valor == 0)
@@ -82,8 +93,10 @@ namespace PerfomanceTests.Samples
         #endregion
     }
 
-    // |                Method |         Mean |      Error |     StdDev |    Ratio | RatioSD |      Gen 0 | Gen 1 | Gen 2 |  Allocated |
-    // |---------------------- |-------------:|-----------:|-----------:|---------:|--------:|-----------:|------:|------:|-----------:|
-    // | Codigo_Com_Exceptions | 2,506.080 ms | 18.9906 ms | 15.8580 ms | 1,347.35 |   11.10 | 21000.0000 |     - |     - | 33600000 B |
-    // | Codigo_Sem_Exceptions |     1.860 ms |  0.0086 ms |  0.0076 ms |     1.00 |    0.00 |          - |     - |     - |          - |
+    /*
+        |                Method |         Mean |      Error |     StdDev |    Ratio | RatioSD |      Gen 0 | Gen 1 | Gen 2 |  Allocated |
+        |---------------------- |-------------:|-----------:|-----------:|---------:|--------:|-----------:|------:|------:|-----------:|
+        | Codigo_Com_Exceptions | 2,506.080 ms | 18.9906 ms | 15.8580 ms | 1,347.35 |   11.10 | 21000.0000 |     - |     - | 33600000 B |
+        | Codigo_Sem_Exceptions |     1.860 ms |  0.0086 ms |  0.0076 ms |     1.00 |    0.00 |          - |     - |     - |          - |
+    */
 }

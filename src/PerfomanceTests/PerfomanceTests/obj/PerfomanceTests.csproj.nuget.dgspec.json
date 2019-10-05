@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\git\\1\\.NetConf-Tests\\PerfomanceTests\\PerfomanceTests\\PerfomanceTests.csproj": {}
+    "E:\\git\\dotnet-performance-samples\\src\\PerfomanceTests\\PerfomanceTests\\PerfomanceTests.csproj": {}
   },
   "projects": {
-    "E:\\git\\1\\.NetConf-Tests\\PerfomanceTests\\PerfomanceTests\\PerfomanceTests.csproj": {
+    "E:\\git\\dotnet-performance-samples\\src\\PerfomanceTests\\PerfomanceTests\\PerfomanceTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\git\\1\\.NetConf-Tests\\PerfomanceTests\\PerfomanceTests\\PerfomanceTests.csproj",
+        "projectUniqueName": "E:\\git\\dotnet-performance-samples\\src\\PerfomanceTests\\PerfomanceTests\\PerfomanceTests.csproj",
         "projectName": "PerfomanceTests",
-        "projectPath": "E:\\git\\1\\.NetConf-Tests\\PerfomanceTests\\PerfomanceTests\\PerfomanceTests.csproj",
+        "projectPath": "E:\\git\\dotnet-performance-samples\\src\\PerfomanceTests\\PerfomanceTests\\PerfomanceTests.csproj",
         "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
-        "outputPath": "E:\\git\\1\\.NetConf-Tests\\PerfomanceTests\\PerfomanceTests\\obj\\",
+        "outputPath": "E:\\git\\dotnet-performance-samples\\src\\PerfomanceTests\\PerfomanceTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
