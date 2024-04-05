@@ -6,55 +6,54 @@ using System.Text;
 
 namespace MemoryDumpTest.Data
 {
-    public class CarrinhoRepository
+    public class ShopCartRepository
     {
-        public Carrinho Get()
+        public ShopCart Get()
         {
-            var produtos = new List<Produto>()
+            var produtos = new List<Product>()
             {
-                new Produto()
+                new Product()
                 {
                     Id = Guid.NewGuid(),
-                    Nome = new Faker().Commerce.ProductName(),
-                    Descricao = new Faker().Lorem.Sentences(50000)
+                    Name = new Faker().Commerce.ProductName(),
+                    Description = new Faker().Lorem.Sentences(50000)
                 },
-                new Produto()
+                new Product()
                 {
                     Id = Guid.NewGuid(),
-                    Nome = new Faker().Commerce.ProductName(),
-                    Descricao = new Faker().Lorem.Sentences(50000)
+                    Name = new Faker().Commerce.ProductName(),
+                    Description = new Faker().Lorem.Sentences(50000)
                 },
-                new Produto()
+                new Product()
                 {
                     Id = Guid.NewGuid(),
-                    Nome = new Faker().Commerce.ProductName(),
-                    Descricao = new Faker().Lorem.Sentences(50000)
+                    Name = new Faker().Commerce.ProductName(),
+                    Description = new Faker().Lorem.Sentences(50000)
                 }
             };
 
-            return new Carrinho() { Id = Guid.NewGuid(), Produtos = produtos };
+            return new ShopCart() { Id = Guid.NewGuid(), Products = produtos };
         }
 
     }
 
-    public class Carrinho
+    public class ShopCart
     {
-        ~Carrinho()
+        ~ShopCart()
         {
-            for (int i = 0; i < Produtos.Count(); i++)
+            for (int i = 0; i < Products.Count(); i++)
             {
-                Produtos[i].GetHashCode();
-                Produtos[i] = null;
+                Products[i] = null;
             }
         }
         public Guid Id { get; set; }
-        public List<Produto> Produtos { get; set; }
+        public List<Product> Products { get; set; }
     }
 
-    public class Produto
+    public class Product
     {
         public Guid Id { get; set; }
-        public string Nome { get; set; }
-        public string Descricao { get; set; }
+        public string Name { get; set; }
+        public string Description { get; set; }
     }
 }
